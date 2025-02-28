@@ -1,6 +1,6 @@
 // 创建结点（组件）
 // 标签类型、属性（参数）、标签下的子节点
-export function createElement(type, props, ...children) {
+export default function createElement(type, props, ...children) {
   return {
     type,
     props: {
